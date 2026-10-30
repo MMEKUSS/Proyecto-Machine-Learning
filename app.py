@@ -229,7 +229,7 @@ except Exception as e:
     st.stop()
 
 c1, c2, c3, c4 = st.columns(4)
-c1.metric("Filas disponibles", f"{len(dataset):,}")
+c1.metric("Total de alumnos", f"{len(dataset):,}")
 c2.metric("Variables predictoras", X.shape[1])
 c3.metric("Nota media G3", f"{y.mean():.2f}/20")
 c4.metric("Valores nulos restantes", int(dataset.isna().sum().sum()))
