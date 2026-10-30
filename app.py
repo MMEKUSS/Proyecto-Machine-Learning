@@ -556,11 +556,11 @@ st.write(
     "El R² mide la proporción de variabilidad explicada por el modelo; el MAE y el RMSE "
     "ayudan a interpretar el tamaño de los errores en puntos de nota."
 )
-st.warning(
-    "Antes de presentar resultados definitivos, revisa la discrepancia entre el objetivo "
-    "escrito (predecir G3 sin G1/G2) y el código original (que sí las conserva). "
-    "También conviene repetir Grid Search y Random Search con sus respectivos mejores "
-    "estimadores: en la última parte del notebook, el código de Random Search parece usar "
-    "por error el resultado de Grid Search."
-)
+#st.warning(
+ #   "Antes de presentar resultados definitivos, revisa la discrepancia entre el objetivo "
+ #   "escrito (predecir G3 sin G1/G2) y el código original (que sí las conserva). "
+ #   "También conviene repetir Grid Search y Random Search con sus respectivos mejores "
+ #  "estimadores: en la última parte del notebook, el código de Random Search parece usar "
+ #   "por error el resultado de Grid Search."
+#)
 st.caption("Proyecto académico de Machine Learning · Student Performance · Emmanuel Amadi")
